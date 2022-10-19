@@ -42,11 +42,16 @@ namespace Consolemetodos
                     break;
                 case 3:
                     //Pedimos el valor de ambos números
-                    Console.Write("Ingresa el primer número:");
-                    num1Ar = IngresarNumero("Ingresa el primer numero");
-                    num2Ar = IngresarNumero("Ingresa el segundo numero");
+                    
 
-                    Console.Write("Ingresa el segundo número:");
+                    //Console.Write("Ingresa el primer número:");
+                    //num1Ar = Convert.ToDecimal(Console.ReadLine());
+
+                    //Console.Write("Ingresa el segundo número:");
+                    //num2Ar = Convert.ToDecimal(Console.ReadLine());
+
+                    num1Ar = IngresarNumero("Ingresa el primer numero ");
+                    num2Ar = IngresarNumero("Ingresa el segundo numero ");
                  
 
                     //Invocamos al método
@@ -54,11 +59,14 @@ namespace Consolemetodos
                     break;
                 case 4:
                     //Pedimos el valor de ambos números
-                    Console.Write("Ingresa el primer número:");
-                    num1Ar = Convert.ToDecimal(Console.ReadLine());
 
-                    Console.Write("Ingresa el segundo número:");
-                    num2Ar = Convert.ToDecimal(Console.ReadLine());
+                    //Console.Write("Ingresa el primer número:");
+                    //num1Ar = Convert.ToDecimal(Console.ReadLine());
+
+                    //Console.Write("Ingresa el segundo número:");
+                    //num2Ar = Convert.ToDecimal(Console.ReadLine());
+                    num1Ar = IngresarNumero("Ingresa el primer numero ");
+                    num2Ar = IngresarNumero("Ingresa el segundo numero ");
 
                     r = Dividir(num1Ar, num2Ar);
 
