@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scalera if else", "scalera if else\scalera if else.csproj", "{AD318B4D-A9F5-4949-9CCF-6D32C45DE27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD318B4D-A9F5-4949-9CCF-6D32C45DE27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD318B4D-A9F5-4949-9CCF-6D32C45DE27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD318B4D-A9F5-4949-9CCF-6D32C45DE27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD318B4D-A9F5-4949-9CCF-6D32C45DE27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45CF248B-F09A-40FC-96E2-A9EA430E2FD1}
+	EndGlobalSection
+EndGlobal
