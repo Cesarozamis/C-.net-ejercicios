@@ -43,10 +43,11 @@ namespace Consolemetodos
                 case 3:
                     //Pedimos el valor de ambos números
                     Console.Write("Ingresa el primer número:");
-                    num1Ar = Convert.ToDecimal(Console.ReadLine());
+                    num1Ar = IngresarNumero("Ingresa el primer numero");
+                    num2Ar = IngresarNumero("Ingresa el segundo numero");
 
                     Console.Write("Ingresa el segundo número:");
-                    num2Ar = Convert.ToDecimal(Console.ReadLine());
+                 
 
                     //Invocamos al método
                     Multiplicar(num1Ar, num2Ar);
@@ -94,10 +95,10 @@ namespace Consolemetodos
             decimal num1, num2, resultado;
 
             //Pedimos el valor de ambos números
-            Console.Write("Ingresa el primer número:");
+            Console.Write("Ingresa el primer número: ");
             num1 = Convert.ToDecimal(Console.ReadLine());
 
-            Console.Write("Ingresa el segundo número:");
+            Console.Write("Ingresa el segundo número: ");
             num2 = Convert.ToDecimal(Console.ReadLine());
 
             //Operación
@@ -139,6 +140,26 @@ namespace Consolemetodos
 
             return resultado;
         }
+        // [modificador] [tipo] [identificador] [parámetros]
+
+        static decimal IngresarNumero(string peticion)
+        {
+
+            //variable local al metodo
+
+            decimal numero;
+        //pedimos el valor segun corresponda
+        Console.Write(peticion);
+            //convertimos y asignamos
+            numero = Convert.ToDecimal(Console.ReadLine());
+
+            //Devolvemos el valor de tipo decimal
+            return numero;
+ 
+        }
+
+
+
     }
 }
 
